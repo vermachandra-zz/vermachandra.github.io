@@ -61,7 +61,7 @@ var configone = {
     r.async = !0, r.src = a + "?a=" + e;
     var c = t.getElementsByTagName("script")[0];
     c.parentNode.insertBefore(r, c)
-})(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-6WAJA3OATHHI-2"
+})(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-KLSX5CWHR5PW-2"
     // {
     //     "htmlSanitization": true,
     //     "htmlSanitizationAllowedDomains": ["https://dileepnalla.github.io"],    
@@ -216,7 +216,7 @@ function allowlogin(usermail) {
 
 
     if (a != "") {
-        if (a == "dileepnalla29@gmail.com" || a == "vasudha.mariserla@gmail.com" || a == "dileepnalla6@gmail.com" || a == "dnalla@gainsight.com" || a == "demouser@gmail.com") {
+        if (a == "dileepnalla29@gmail.com" || a == "cverma@gainsight.com"  || a == "vasudha.mariserla@gmail.com" || a == "dileepnalla6@gmail.com" || a == "dnalla@gainsight.com" || a == "demouser@gmail.com") {
             alert("valid User");
             b = a.substr(8, 5);
             var id = b;
@@ -249,6 +249,7 @@ function allowlogin(usermail) {
                         "name": myaccount.a4,
                         // flat custom attributes
                     });
+
             } else if (a == 'dileepnalla6@gmail.com') {
                 aptrinsic('identify', {
                         //User Fields
@@ -263,6 +264,22 @@ function allowlogin(usermail) {
                         //Account Fields
                         "id": myaccount.a3, //Required
                         "name": myaccount.a3,
+                        // flat custom attributes
+                    });
+} else if (a == 'cverma@gainsight.com') {
+                aptrinsic('identify', {
+                        //User Fields
+                        "id": id, // Required for logged in app users
+                        "email": a,
+                        "subscriptionId":"e2cdcaad-5fb9-4239-92a0-1504d5e79b3c"
+
+                        // "userHash": hash.toString()// optional transient for HMAC identification
+                    },
+
+                    {
+                        //Account Fields
+                        "id": myaccount.a5, //Required
+                        "name": myaccount.a5,
                         // flat custom attributes
                     });
             } else if (a == 'demouser@gmail.com') {
@@ -343,7 +360,7 @@ function allowlogin(usermail) {
 
             alert("Logged in user id :" + b);
 
-            window.location = "https://dileepnalla.github.io/Basic_html/Index.HTML"; 
+            window.location = "https://vermachandra.github.io/index.html"; 
             aptrinsic('track', 'User Login');
 
         } else
