@@ -1,0 +1,34 @@
+Need to define a Metrics, Clear path to be defined
+
+Hima:
+
+What are the kind of task that are taken during COE?
+- Process for CO (Harshi & team) - Building Health scores, Benchmarking metrics, Owning entire config on GonG - Internal
+- Services - Sarah, building onboarding Guides for different personas- Internal Task
+- Identifying  use cases & important Features in PX, Learning Path for PX based on Persona (Onboarding guides) documentation. Shared to Sarah (Customer Facing docs) -- (Product Analysts/ Managers, PX Admins)
+- Training Plans for different functions 
+
+Technical Expertise:
+Meetings with teams and Providing solutions based on use cases for PS, COM/CSA, Support, Services (Internal)
+PX-Pendo Migration (API Understanding of Pendo)
+Tech Touch Onboarding
+Product Feedback
+PX-CS Integration Data Issues.
+
+Training Needs Quality Check and Training Needs , updating the documentation
+Cross Functional Knowledge
+
+
+
+What did you feel missing ? what could be done better?
+
+
+What are Pro's and Con's?
+
+
+
+Thoughts on COE
+
+Only Internal Exposure, and Limited External Exposure, to set up processes, Training teams, Suggesting best practices
+Process Oriented, Functional & Product Knowledge, External Practices(on COE), Suggesting Best Practices & Automations(Regular tasks to be automated), like writing scripts for bulk operations (Internal Tools), Pendo Data migration
+

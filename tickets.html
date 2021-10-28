@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zendesk Ticket API POC</title>
+<script>
+    		function setHeader() {
+			$.ajaxSetup({
+				headers: {
+					"X-Requested-With": "XMLHttpRequest",
+					"Content-Type": "application/json",
+					"X-APTRINSIC-API-KEY": $('#apikey').val()
+				}
+			});
+
+		}
+
+        $.ajax({
+            type: "POST",
+            url: urlPath,
+            success: function(data)
+            {
+                helpers.buildDropdown(
+                    jQuery.parseJSON(data),
+                    $('#dropdown'),
+                    'Select an option'
+                );
+            }
+        });
+
+</script>
+
+
+
+
+
+</head>
+<body>
+    <select id="dropdown"></select>
+    
+</body>
+</html>

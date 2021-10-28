@@ -1,0 +1,37 @@
+{
+    "engagementChecksums": [{
+        "engagementId": "8a25755f-1964-49b6-9d9c-665401ad2390",
+        "validChecksums": ["6459493f109775197555bed6f49c26e57f85390bbea9fe57407f75f81437c7de", "cfdaef41e512516948482207067303ff27a8e13a3422956640667ecc9f02536e"]
+    }, {
+        "engagementId": "0b197a3f-3441-486a-80d6-67f2f9ce9090",
+        "validChecksums": ["d122a1f7a717da8f6091f27c83006facbda40313219cd8e739d4478c2ad0cd12"]
+    }, {
+        "engagementId": "4d16885b-eb47-4436-bfab-7d2e842ded0a",
+        "validChecksums": ["30ff81fe2f49cb68badbb00f01293b21f72ea40a656557bd74e883ebad1951bf"]
+    }, {
+        "engagementId": "b5662e80-69fd-42a6-a370-322bb5037344",
+        "validChecksums": ["1c0343b669969e47b1e32a7cc0273e186c2e736fee3d130d6dd14aabea676ff5"]
+    }, {
+        "engagementId": "15a865a1-e9a6-4393-a096-7f8ce617f45d",
+        "validChecksums": ["4297abe5d6cac353e58681c08afd59785cddfb377a7d706efb77c68b67459d32"]
+    }, {
+        "engagementId": "12cd4ae9-6020-4628-823c-e23fd6b1ac7f",
+        "validChecksums": ["15ea491625b6529f4f2055b8fcf891f48e152d274f27ee6ff4cd879311ef244d"]
+    }, {
+        "engagementId": "67f83de2-a9e7-4459-8fe1-588d35e832c7",
+        "validChecksums": []
+    }, {
+        "engagementId": "92511eb1-2590-479f-8777-da8321dfaaba",
+        "validChecksums": ["7d2cd87a0d900894788832b3454ff09291fe1e2e96c38233b31ca7c07296d608"]
+    }],
+    "botChecksums": [{
+        "botId": "3d8b06d9-06ea-4518-8ef2-78564a5a173e",
+        "validConfigChecksums": ["ee8aeb61992abafe21c1634c470308c2f595fe08141d344f6fd5971e207e6b29"],
+        "validContentChecksums": ["b900b22c207720db37af0ea076f3b7367d2d703b18f8b49c610047f4c9b6d1de"]
+    }, {
+        "botId": "26eedf49-b2e5-4eb3-a31e-e6907a40065c",
+        "validConfigChecksums": ["5c2346c11656dc798df395b8a881e4971a6bd5eada0dd0ffa1a775cad46d5a1a"],
+        "validContentChecksums": ["a0e4ed413692b689586d223222926d2b39d1fc0b6d224bfc49e7d2f287352e18"]
+    }],
+    "engFieldMappingEnabled": true
+}
